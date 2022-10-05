@@ -1,0 +1,34 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^12.0.0",
+    "@expo/webpack-config": "^0.17.0",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/native": "5.0.8",
+    "@react-navigation/stack": "5.1.0",
+    "axios": "*",
+    "expo": "~46.0.13",
+    "expo-status-bar": "~1.4.0",
+    "lodash": "*",
+    "mobx": "^6.6.2",
+    "mobx-react-lite": "^3.4.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-native": "0.69.6",
+    "react-native-gesture-handler": "~1.8.0",
+    "react-native-paper": "3.6.0",
+    "react-native-safe-area-context": "3.1.9",
+    "react-native-screens": "~2.15.2",
+    "react-native-web": "~0.18.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9"
+  },
+  "private": true
+}
