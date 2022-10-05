@@ -25,6 +25,7 @@ export const SongListScreen = ({ navigation }) => {
   const onChangeText = (text) => {
     setQuery(text);
     setResults([]);
+    setEnd(false);
     offset.current = 0;
     if (text.length >= 3) {
       debouncedFetchResults.current(text);
